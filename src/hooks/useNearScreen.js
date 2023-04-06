@@ -3,9 +3,9 @@ import { useEffect, useState, useRef } from 'react';
 const isBrowser = typeof window !== `undefined`;
 
 const useNearScreen = ({ externalRef = null, once = true } = {}) => {
-  if (!isBrowser) return null;
   const [show, setShow] = useState(false);
-  const element = externalRef !== null && externalRef !== undefined ? externalRef : useRef(null);
+  const element = useRef(externalRef !== null && externalRef !== undefined ? externalRef : null);
+
   useEffect(() => {
     Promise.resolve(
       typeof window.IntersectionObserver !== 'undefined'
@@ -21,12 +21,14 @@ const useNearScreen = ({ externalRef = null, once = true } = {}) => {
           setShow(false);
         }
       });
+
       if (element && element.current) {
         observer.observe(element.current);
       }
     });
   }, [element]);
-  return [show, element];
+
+  return !isBrowser ? null : [show, element];
 };
 
 export default useNearScreen;
