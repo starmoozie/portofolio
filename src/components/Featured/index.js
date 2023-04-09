@@ -28,7 +28,7 @@ const Featured = () => {
   return (
     <section id="projek">
       <NumberedHeading ref={revealTitle}>
-        Beberapa project saya.
+        Beberapa Project Saya.
       </NumberedHeading>
 
       <div>
@@ -42,7 +42,7 @@ const Featured = () => {
                 ref={(el) => (revealProjects.current[i] = el)}
               >
                 <div className="project-content">
-                  <p className="project-overline">Featured Project</p>
+                  <p className="project-overline">Project</p>
                   <h3 className="project-title">{title}</h3>
                   <div
                     className="project-description"
