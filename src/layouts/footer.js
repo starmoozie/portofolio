@@ -1,15 +1,20 @@
 /* eslint-disable global-require */
-import { useEffect, useRef } from 'react';
-import { Icon } from '@components/Icons';
-import { socialMedia } from '@config';
-import { srConfig } from '@config/sr';
-import Image from 'next/image';
-import { StyledFooter, StyledSocialLinks, StyledMadeWith, StyledCredit } from './styles';
+import { useEffect, useRef } from "react";
+import { Icon } from "@components/Icons";
+import { socialMedia } from "@config";
+import { srConfig } from "@config/sr";
+import Image from "next/image";
+import {
+  StyledFooter,
+  StyledSocialLinks,
+  StyledMadeWith,
+  StyledCredit,
+} from "./styles";
 
 const Footer = () => {
   const revealContainer = useRef(null);
   useEffect(() => {
-    const ScrollReveal = require('scrollreveal');
+    const ScrollReveal = require("scrollreveal");
     const sr = ScrollReveal.default();
     sr.reveal(revealContainer.current, srConfig());
   }, []);
@@ -32,7 +37,12 @@ const Footer = () => {
       <StyledMadeWith>
         <p>Dibuat menggunakan</p>
         <a rel="noreferrer" target="_blank" href="https://nextjs.org/">
-          <Image src="/nextjs-white-logo.svg" width={100} height={100} />
+          <Image
+            src="/nextjs-white-logo.svg"
+            width={100}
+            height={100}
+            alt="NextJs"
+          />
         </a>
       </StyledMadeWith>
 

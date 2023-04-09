@@ -1,9 +1,9 @@
 /* eslint-disable react/no-array-index-key */
-import { useState, useEffect } from 'react';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { email, phone } from '@config';
-import { NAV_DELAY, LOADER_DELAY } from '@lib/constants';
-import { StyledHeroSection, StyledBigTitle } from './styles';
+import { useState, useEffect } from "react";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { email, phone } from "@config";
+import { NAV_DELAY, LOADER_DELAY } from "@lib/constants";
+import { StyledHeroSection, StyledBigTitle } from "./styles";
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -18,7 +18,8 @@ const Hero = () => {
   const three = <StyledBigTitle slate>Fullstack Developer.</StyledBigTitle>;
   const four = (
     <p>
-      Saya seorang software engineer, domisili di Jember - Jawa Timur - Indonesia
+      Saya seorang software engineer, domisili di Jember - Jawa Timur -
+      Indonesia
     </p>
   );
   const five = (
@@ -34,7 +35,12 @@ const Hero = () => {
       <TransitionGroup component={null}>
         {isMounted &&
           items.map((item, i) => (
-            <CSSTransition key={i} classNames="fadeup" timeout={LOADER_DELAY}>
+            <CSSTransition
+              key={i}
+              classNames="fadeup"
+              timeout={LOADER_DELAY}
+              in
+            >
               <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
             </CSSTransition>
           ))}

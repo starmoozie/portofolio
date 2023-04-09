@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import styled from 'styled-components';
-import { NAV_DELAY } from '@lib/constants';
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+import styled from "styled-components";
+import { NAV_DELAY } from "@lib/constants";
 
 const StyledMainContainer = styled.main`
   ${({ theme }) => theme.mixins.flexCenter};

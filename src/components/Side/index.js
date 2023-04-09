@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { LOADER_DELAY } from '@lib/constants';
-import { StyledSideElement } from './styles';
+import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { LOADER_DELAY } from "@lib/constants";
+import { StyledSideElement } from "./styles";
 
 const Side = ({ children, isHome, orientation }) => {
   const [isMounted, setIsMounted] = useState(!isHome);
@@ -19,7 +19,11 @@ const Side = ({ children, isHome, orientation }) => {
     <StyledSideElement orientation={orientation}>
       <TransitionGroup component={null}>
         {isMounted && (
-          <CSSTransition classNames={isHome ? 'fade' : ''} timeout={isHome ? LOADER_DELAY : 0}>
+          <CSSTransition
+            classNames={isHome ? "fade" : ""}
+            timeout={isHome ? LOADER_DELAY : 0}
+            in
+          >
             {children}
           </CSSTransition>
         )}
