@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import {
   IconAppStore,
   IconCodepen,
@@ -13,44 +13,47 @@ import {
   IconLogo,
   IconPlayStore,
   IconStar,
+  IconTelegram,
   IconTwitter,
   IconWhatsapp,
   IconZap,
-} from '@components/Icons';
+} from "@components/Icons";
 
 const Icon = ({ name }) => {
   switch (name) {
-    case 'AppStore':
+    case "AppStore":
       return <IconAppStore />;
-    case 'Codepen':
+    case "Codepen":
       return <IconCodepen />;
-    case 'External':
+    case "External":
       return <IconExternal />;
-    case 'Folder':
+    case "Folder":
       return <IconFolder />;
-    case 'Fork':
+    case "Fork":
       return <IconFork />;
-    case 'GitHub':
+    case "GitHub":
       return <IconGitHub />;
-    case 'Instagram':
+    case "Instagram":
       return <IconInstagram />;
-    case 'Linkedin':
+    case "Linkedin":
       return <IconLinkedin />;
-    case 'Loader':
+    case "Loader":
       return <IconLoader />;
-    case 'Location':
+    case "Location":
       return <IconLocation />;
-    case 'Logo':
+    case "Logo":
       return <IconLogo />;
-    case 'PlayStore':
+    case "PlayStore":
       return <IconPlayStore />;
-    case 'Star':
+    case "Star":
       return <IconStar />;
-    case 'Twitter':
+    case "Telegram":
+      return <IconTelegram />;
+    case "Twitter":
       return <IconTwitter />;
-    case 'Whatsapp':
+    case "Whatsapp":
       return <IconWhatsapp />;
-    case 'Zap':
+    case "Zap":
       return <IconZap />;
     default:
       return <IconExternal />;

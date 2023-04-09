@@ -21,6 +21,10 @@ module.exports = {
       name: "Whatsapp",
       url: "https://wa.me/6285746400500",
     },
+    {
+      name: "Telegram",
+      url: "https://t.me/BaguyzKurniawanz",
+    },
   ],
 
   navLinks: [
