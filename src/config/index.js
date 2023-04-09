@@ -1,45 +1,45 @@
 /* eslint-disable max-len */
-import featuredProjects from './featured';
-import projects from './projects';
+import featuredProjects from "./featured";
+import projects from "./projects";
 
 module.exports = {
-  email: 'bagusyulikurniawan@gmail.com',
-  phone: '6285746400500',
+  email: "bagusyulikurniawan@gmail.com",
+  phone: "6285746400500",
   featuredProjects,
   projects,
-  skills: ['JavaScript', 'Ecmascript', 'React', 'Laravel', 'SQL'],
+  skills: ["JavaScript", "Ecmascript", "React", "Laravel", "SQL"],
   socialMedia: [
     {
-      name: 'GitHub',
-      url: 'https://github.com/starmoozie',
+      name: "GitHub",
+      url: "https://github.com/starmoozie",
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bagus-k-67630378/',
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/bagus-k-67630378/",
     },
     {
-      name: 'Whatsapp',
-      url: 'https://https://wa.me/6285746400500',
+      name: "Whatsapp",
+      url: "https://wa.me/6285746400500",
     },
   ],
 
   navLinks: [
     {
-      name: 'Tentang',
-      url: '/#tentang',
+      name: "Tentang",
+      url: "/#tentang",
     },
     {
-      name: 'Projek',
-      url: '#projek',
+      name: "Projek",
+      url: "#projek",
     },
     {
-      name: 'Pengalaman',
-      url: '/#pengalaman',
+      name: "Pengalaman",
+      url: "/#pengalaman",
     },
   ],
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: "#64ffda",
+    navy: "#0a192f",
+    darkNavy: "#020c1b",
   },
 };
