@@ -15,7 +15,7 @@ const Hero = () => {
 
   const one = <h1>Hi, saya</h1>;
   const two = <StyledBigTitle>Bagus YK.</StyledBigTitle>;
-  const three = <StyledBigTitle slate>Fullstack Developer.</StyledBigTitle>;
+  const three = <StyledBigTitle slate>Software Engineer.</StyledBigTitle>;
   const four = (
     <p>
       Saya seorang software engineer, domisili di Jember - Jawa Timur -
