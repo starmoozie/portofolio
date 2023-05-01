@@ -6,7 +6,7 @@ const BaseLayout = ({ children }) => {
   return (
     <div id="main">
       <Head>
-        <title>Bagus YK | Fullstack Developer</title>
+        <title>Bagus YK | Software Engineer</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <link
