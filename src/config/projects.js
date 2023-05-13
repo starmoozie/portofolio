@@ -1,9 +1,16 @@
 /* eslint-disable max-len */
 module.exports = [
   {
-    title: "DOT Indonesia",
+    title: "Informatika Media Pratama",
     from: "2023",
-    to: "2022",
+    to: "now",
+    descriptionHtml: "Fullstack Developer",
+    techs: ["Laravel", "MySQL", "React"],
+  },
+  {
+    title: "DOT Indonesia",
+    from: "2022",
+    to: "now",
     descriptionHtml: "Backend Developer",
     techs: ["Laravel", "MySQL", "React"],
   },
