@@ -17,10 +17,7 @@ const Hero = () => {
   const two = <StyledBigTitle>Bagus YK.</StyledBigTitle>;
   const three = <StyledBigTitle slate>Software Engineer.</StyledBigTitle>;
   const four = (
-    <p>
-      Saya seorang software engineer, domisili di Jember - Jawa Timur -
-      Indonesia
-    </p>
+    <p></p>
   );
   const five = (
     <a href={`https://wa.me/${phone}`} className="email-link">
