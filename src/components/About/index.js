@@ -47,10 +47,6 @@ const About = () => {
             </p>
             <br />
             <p>
-              Kejar jam tayang YouTube / Akun monetesisasi YouTube / Kejar $10 pertama juga siaappp...
-            </p>
-            <br />
-            <p>
               Dibawah ini adalah beberapa framework / bahasa pemograman yang saya
               kuasai:
             </p>
