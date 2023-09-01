@@ -7,7 +7,7 @@ module.exports = {
   phone: "6285746400500",
   featuredProjects,
   projects,
-  skills: ["JavaScript", "Ecmascript", "React", "Laravel", "SQL"],
+  skills: ["JavaScript", "Ecmascript", "React", "Laravel", "SQL", "NoSQL / Json", "AdonisJS", "VueJS", "ExpressJS", "NodeJS", "CI"],
   socialMedia: [
     {
       name: "GitHub",
