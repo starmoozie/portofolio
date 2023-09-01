@@ -18,7 +18,7 @@ module.exports = [
     title: "Antardata Cakrawala Teknologi",
     from: "2020",
     to: "2023",
-    descriptionHtml: "Fullstack developer",
+    descriptionHtml: "Fullstack developer | Lead -> Software Engineer -> CTO",
     techs: [
       "Laravel",
       "CodeIgniter",
@@ -35,14 +35,14 @@ module.exports = [
     title: "Epsilon Multisinergi",
     from: "2020",
     to: "2022",
-    descriptionHtml: "Fullstack developer",
+    descriptionHtml: "Fullstack developer | Lead -> Software Engineer",
     techs: ["Laravel", "CodeIgniter", "ReactJS", "SQL", "NoSQL", "AdonisJS"],
   },
   {
     title: "Xplora Gamma Jaya",
     from: "2018",
     to: "2022",
-    descriptionHtml: "Fullstack developer",
+    descriptionHtml: "Fullstack developer | Lead -> Software Engineer",
     techs: [
       "Laravel",
       "ReactJS",
