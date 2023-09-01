@@ -24,6 +24,7 @@ const About = () => {
             <p>
               Hi! Saya Bagus, saya seorang sofware engineer berdomisili di
               Jember - Jawa Timur.
+              Saat ini saya sedang berkelana mencari jati diri.
             </p>
             <p>
               Saya sangat senang mempelajari hal baru dan sangat suka dengan
@@ -33,13 +34,16 @@ const About = () => {
               Hal yang saya kuasai beberapa adalah, Sistem Analis, Data Analis, ERD, DFD, FlowChart, Leadership
             </p>
             <p>
-              Middle range, Infrastruktur, Jaringan, Server, DevOps
+              Middle range, Infrastruktur, Mikrotik, Server, DevOps
             </p>
             <p>
               Yang saya tidak bisa itu UI, mungkin memang tidak ada bakat disana :D
             </p>
             <p>
               Yang saya tidak suka itu pembuatan dokumentasi :D
+            </p>
+            <p>
+              Diluar programming juga bisa Support / Teknisi Hardware Software Jaringan ( Mikrotik ) / Editing Video - Foto / Audio Music Recording - Music Composer
             </p>
             <br />
             <p>
