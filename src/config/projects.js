@@ -10,7 +10,7 @@ module.exports = [
   {
     title: "DOT Indonesia",
     from: "2022",
-    to: "now",
+    to: "2023",
     descriptionHtml: "Backend Developer",
     techs: ["Laravel", "MySQL", "React"],
   },
