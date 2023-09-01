@@ -27,11 +27,11 @@ const About = () => {
             </p>
             <p>
               Saya sangat senang mempelajari hal baru dan sangat suka dengan
-              tantangan baru.
+              tantangan baru. Saya juga seorang yang periang dan humoris.
             </p>
             <br />
             <p>
-              Ini adalah beberapa framework / bahasa pemograman yang saya
+              Dibawah ini adalah beberapa framework / bahasa pemograman yang saya
               kuasai:
             </p>
           </div>
