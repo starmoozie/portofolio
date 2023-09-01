@@ -29,6 +29,18 @@ const About = () => {
               Saya sangat senang mempelajari hal baru dan sangat suka dengan
               tantangan baru. Saya juga seorang yang periang dan humoris.
             </p>
+            <p>
+              Hal yang saya kuasai beberapa adalah, Sistem Analis, Data Analis, ERD, DFD, FlowChart, Leadership
+            </p>
+            <p>
+              Middle range, Infrastruktur, Jaringan, Server, DevOps
+            </p>
+            <p>
+              Yang saya tidak bisa itu UI, mungkin memang tidak ada bakat disana :D
+            </p>
+            <p>
+              Yang saya tidak suka itu pembuatan dokumentasi :D
+            </p>
             <br />
             <p>
               Dibawah ini adalah beberapa framework / bahasa pemograman yang saya
