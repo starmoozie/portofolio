@@ -37,13 +37,10 @@ const About = () => {
               Middle range, Infrastruktur, Mikrotik, Server, DevOps
             </p>
             <p>
-              Yang saya tidak bisa itu UI, mungkin memang tidak ada bakat disana :D
+              Saya tidak begitu bisa di UI / Design, mungkin memang tidak ada bakat designer disana :D
             </p>
             <p>
-              Yang saya tidak suka itu pembuatan dokumentasi :D
-            </p>
-            <p>
-              Diluar programming juga bisa Support / Teknisi Hardware Software Jaringan ( Mikrotik ) / Editing Video - Foto / Audio Music Recording - Music Composer
+              Diluar programming, bisa juga sebagai Support / Teknisi Hardware Software Jaringan ( Mikrotik ) / Editing Video - Foto / Audio Music Recording - Music Composer
             </p>
             <br />
             <p>
