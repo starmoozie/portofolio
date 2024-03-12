@@ -5,7 +5,7 @@ module.exports = [
     from: "2023",
     to: "now",
     descriptionHtml: "Fullstack Developer",
-    techs: ["Laravel", "MySQL", "React", "NestJS", "PostgreSQL"],
+    techs: ["Laravel", "MySQL", "React", "NestJS", "PostgreSQL", "NextJS"],
   },
   {
     title: "DOT Indonesia",
