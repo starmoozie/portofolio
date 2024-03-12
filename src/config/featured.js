@@ -6,7 +6,7 @@ module.exports = [
     github: '#',
     external: 'https://e-toss.triputraenergi.com',
     descriptionHtml:
-      'Aplikasi penengah dari beberapa aplikasi, serta pencatatan barang distribusi client dari Triputra Energi',
+      'Invoicing Triputra Energi Megatara',
     techs: ['React', 'Typescript', 'Laravel'],
   },
   {
